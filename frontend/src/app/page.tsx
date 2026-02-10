@@ -1,13 +1,17 @@
-export default async function Home() {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/api/ping`,
-      { cache: 'no-store'}
-    );
-    const data = await res.json();
+'use client'
 
-    return (
-      <main>
-        <pre>{JSON.stringify(data, null, 2)}</pre>
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/sections/Hero";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <main className="flex-grow">
+        <Hero />
       </main>
-    )
+      <Footer />
+    </>
+  )
 }
