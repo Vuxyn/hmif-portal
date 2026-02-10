@@ -2,32 +2,40 @@
 node_modules/
 vendor/
 
-# Next.js
+# Next.js - PENTING!
+.next/
 frontend/.next/
 frontend/out/
 frontend/build/
+frontend/.vercel
 frontend/.env*.local
+frontend/.env
 
-# Laravel
+# Laravel - PENTING!
 backend/.env
+backend/.env.backup
+backend/.env.production
 backend/vendor/
 backend/node_modules/
 backend/public/hot
 backend/public/storage
 backend/storage/*.key
 backend/storage/logs/
-backend/bootstrap/cache/
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
+.DS_Store?
 
 # Logs
 *.log
