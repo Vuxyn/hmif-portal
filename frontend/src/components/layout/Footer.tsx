@@ -59,7 +59,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                {/* Section 3: Contact & Address */}
+                {/*Contact & Address */}
                 <div>
                     <h3 className="font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm">Hubungi Kami</h3>
                     <ul className="space-y-4 text-gray-600 text-sm">

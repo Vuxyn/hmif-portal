@@ -29,11 +29,13 @@ export default function Hero() {
                     <h2 className="text-3xl md:text-2xl font-bold text-slate-700">
                         UNIVERSITAS MATARAM
                     </h2>
+
                     {/* Button */}
                     <div className="flex flex-wrap justify-center gap-4 pt-4">
                         <Button text="Selengkapnya" variant="primary" />
                     </div>
                 </div>
+
             </div>
         </section>
     );
