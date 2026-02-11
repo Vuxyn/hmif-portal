@@ -32,7 +32,6 @@ export default function Hero() {
                     {/* Button */}
                     <div className="flex flex-wrap justify-center gap-4 pt-4">
                         <Button text="Selengkapnya" variant="primary" />
-                        <Button text="Kontak" variant="secondary" />
                     </div>
                 </div>
             </div>
